@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandon's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/fc1e1c2b79.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./assets/images/Brandon Giordano.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Front End Web Developer</p>
+          <h1>
+            Hello,<br />
+            I'm <span>Brandon</span> Giordano
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="./assets/images/received_626143025508205.jpeg"
+              alt="a picture of myself"
+            />
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="title" id="about-title">About Me</h1>
+            <p id="about-content">
+              I'm a coding student based in Rockledge, Florida and I'm currently
+              trying to broaden my horizons in the UCF Coding Bootcamp. I have
+              prior degrees such as an Associates in Arts as well as an
+              Associates in Science from Eastern Florida State College. I have a
+              passion for science and technolgy and would love to one day work
+              on or develop products and applications that make people's lives
+              easier. My prior work experience is in retail and customer service
+              but I'm eager to learn and grow in tech. My favourite hobby is
+              teaching and training Brazilian Jiu Jitsu and MMA but I'm also a
+              huge gamer and really love movies.
+            </p>
+            <div class="columns">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('exp')">Experience</p>
+              <p class="tab-links" onclick="openTab('edu')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Front End Design</span><br />HTML, CSS, JavaScript
+                </li>
+                <li>
+                  <span>Communication</span><br />Customer service and teaching
+                  Martial Arts
+                </li>
+                <li><span></span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="exp">
+              <ul>
+                <li>
+                  <span>2017 - Current</span><br />Retails Sales Associate at
+                  Cost Plus World Market
+                </li>
+                <li><span></span></li>
+                <li><span></span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="edu">
+              <ul>
+                <li>
+                  <span>2022</span><br />AA from Eastern Florida State College
+                </li>
+                <li>
+                  <span>2022</span><br />AS from Eastern Florida State College
+                </li>
+                <li>
+                  <span>2023</span><br />Full Stack Web Development at Training
+                  the University of Central Florida
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="title" id="service-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-layer-group"></i>
+            <h2>Full Stack Web Design</h2>
+            <p>Placeholder text</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-regular fa-window-restore"></i>
+            <h2>UI/UX Design</h2>
+            <p>Placeholder text</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h2>App Design</h2>
+            <p>Placeholder text</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h2 class="title" id="portfolio-title">My Portfolio</h2>
+        <div class="work-list">
+          <div class="work">
+            <img src="./assets/images/2023-01-11.png" />
+            <a href="https://brandongiordano.github.io/whos-my-congressman/"
+              ><div class="layer">
+                <h3>Who's My Congressman?</h3>
+                <p>
+                  This was my first project. This is a webpage that utilizes two
+                  APIs and allows a user to input an address and find out the
+                  local Representative as well as their two state Senators.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="work">
+            <img src="./assets/images/2023-03-06.png" />
+            <a href="https://git.heroku.com/papayon.git"
+              ><div class="layer">
+                <h3>Pizza Store Website</h3>
+                <p>
+                  This was my second project. This is a webpage that acts as a 
+                  partially functioning ecommerce website for a make-believe pizzeria.
+                  It features user authentication, allows a user to save their
+                   favourite pizzas, and stores data in a mysql database.
+                </p>
+              </div>
+            </a>
+          </div>
+            <img src="./assets/images/" />
+          </div>
+        </div>
+        <a href="https://github.com/brandongiordano" class="btn"
+          >More Projects</a
+        >
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact">
+            <h1 class="title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> bgiordano9917@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> 321-501-2580</p>
+            <p>
+              <a href="https://www.linkedin.com/in/brandon-giordano-0795b3255/"
+                ><i class="fa-brands fa-linkedin"></i> My LinkedIn
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>
